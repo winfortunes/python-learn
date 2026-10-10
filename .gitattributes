@@ -1,0 +1,43 @@
+# Normalize text files in the repository and store them with LF line endings.
+* text=auto
+
+# Python and uv project files.
+*.py       text eol=lf
+*.pyi      text eol=lf
+*.toml     text eol=lf
+*.lock     text eol=lf
+.python-version text eol=lf
+
+# Documentation and configuration.
+*.md       text eol=lf
+*.rst      text eol=lf
+*.txt      text eol=lf
+*.json     text eol=lf
+*.jsonl    text eol=lf
+*.yaml     text eol=lf
+*.yml      text eol=lf
+*.ini      text eol=lf
+*.cfg      text eol=lf
+*.env      text eol=lf
+*.gitignore text eol=lf
+.gitattributes text eol=lf
+
+# Scripts.
+*.sh       text eol=lf
+*.bash     text eol=lf
+*.zsh      text eol=lf
+*.bat      text eol=crlf
+*.cmd      text eol=crlf
+*.ps1      text eol=crlf
+
+# Binary files must not be modified by Git's text conversion.
+*.png      binary
+*.jpg      binary
+*.jpeg     binary
+*.gif      binary
+*.webp     binary
+*.ico      binary
+*.pdf      binary
+*.zip      binary
+*.gz       binary
+*.whl      binary
